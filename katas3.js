@@ -1,7 +1,7 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 17, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 
 function showResults (num) {
-    return num
+    console.log(num)
 }
 
 function kata1() {
@@ -9,7 +9,8 @@ function kata1() {
         for (let i = 1; i < 26; i++){
             result.push(i)
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata2() {
@@ -17,7 +18,8 @@ function kata2() {
         for (let i = 25; i > 0; i--){
             result.push(i)
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata3() {
@@ -25,7 +27,8 @@ function kata3() {
         for (let i = -1; i > -26; i--){
             result.push(i)
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata4() {
@@ -33,7 +36,8 @@ function kata4() {
         for (let i = -25; i < 0; i++){
             result.push(i)
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata5() {
@@ -43,7 +47,8 @@ function kata5() {
                 result.push(i)
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata6() {
@@ -53,7 +58,8 @@ function kata6() {
                 result.push(i)
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata7() {
@@ -63,7 +69,8 @@ function kata7() {
                 result.push(i)
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata8() {
@@ -73,7 +80,8 @@ function kata8() {
                 result.push(i)
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata9() {
@@ -83,7 +91,8 @@ function kata9() {
                 result.push(i)
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata10() {
@@ -91,7 +100,8 @@ function kata10() {
         for (let i = 0; i < sampleArray.length; i++){
             result.push(sampleArray[i])
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata11() {
@@ -101,7 +111,8 @@ function kata11() {
                 result.push(sampleArray[i])
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata12() {
@@ -111,7 +122,8 @@ function kata12() {
                 result.push(sampleArray[i])
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata13() {
@@ -121,7 +133,8 @@ function kata13() {
                 result.push(sampleArray[i])
             }
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata14() {
@@ -129,7 +142,8 @@ function kata14() {
         for (let i = 0; i < sampleArray.length; i++){
             result.push(sampleArray[i]*sampleArray[i])
         }
-        return showResults(result)
+        showResults(result)
+        return result
 }
 
 function kata15() {
@@ -137,7 +151,8 @@ function kata15() {
         for (let i = 0; i < 21; i++){
             soma += i
         }
-        return showResults(soma)
+        showResults(soma)
+        return soma
 }
 
 function kata16() {
@@ -145,7 +160,8 @@ function kata16() {
         for (let i = 0; i < sampleArray.length; i++){
             soma += sampleArray[i]
         }
-        return showResults(soma)
+        showResults(soma)
+        return soma
 }
 
 function kata17() {
@@ -155,7 +171,8 @@ function kata17() {
                 menor = sampleArray[i]
             }
         }
-        return showResults(menor)
+        showResults(menor)
+        return menor
 }
 
 function kata18() {
@@ -165,7 +182,8 @@ function kata18() {
                 maior = sampleArray[i]
             }
         }
-        return showResults(maior)
+        showResults(maior)
+        return maior
 }
 
 /**
